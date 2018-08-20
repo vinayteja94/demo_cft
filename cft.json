@@ -36,8 +36,9 @@
     "aws": {
       "Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance.",
       "Type": "AWS::EC2::KeyPair::KeyName",
+      "Default": "launch",
       "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
-      "Default": "launch"
+      
     },
     "SSHLocation": {
       "Description": " The IP address range that can be used access the web server using SSH.",
